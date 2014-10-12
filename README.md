@@ -1,3 +1,10 @@
+Important Note
+--------
+This is my extension of ros_arduino_brige to change the Arduino firmware over from an ad-hoc #IFDEF implmentation to something more objected oriented. The goal is to have a generic base class that is then implmented by a child class for each type of motor controller. Currently I have a RoboClaw motor controller, so I'm experimenting with it.
+
+Hopefully, using a OO approach will allow users with different motor controllers to quickly implement new controllers without having to significantly tweak the basic firmware. 
+
+
 Overview
 --------
 This branch (hydro-devel) is intended for ROS Hydro and above, and uses the Catkin buildsystem. It may also be compatible with ROS Groovy.
