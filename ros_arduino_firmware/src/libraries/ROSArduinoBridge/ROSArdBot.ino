@@ -1,6 +1,7 @@
 // bring in the virtual bass class from which all controllers are derived.
 #include "ROSArdRoboclaw.h"
 #include "ROSArdTypes.h"
+// SoftSerial instead??
 #include "BMSerial.h"
 #include "RoboClaw.h"
 #include <Servo.h>      // can comment out to save 900 bytes if not needed.
